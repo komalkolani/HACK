@@ -1,13 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Oct 29 13:32:51 2022
-
-@author: DELL
-"""
-
-# Python3 program to find maximum
-# in arr[] of size n
-
 # python function to find maximum
 # in arr[] of size n
 
@@ -27,7 +19,7 @@ def largest(arr, n):
 
 
 # Driver Code
-arr = [10, 324, 45, 90, 9808]
+arr = [10, 250, 45, 90, 9828]
 n = len(arr)
 Ans = largest(arr, n)
 print("Largest in given array ", Ans)
