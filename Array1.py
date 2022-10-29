@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Oct 29 13:07:46 2022
-
-@author: DELL
-"""
-
 # Python 3 code to find sum
 # of elements in given array
 
@@ -29,7 +24,7 @@ def _sum(arr):
 # driver function
 arr = []
 # input values to list
-arr = [12, 3, 4, 15]
+arr = [10, 3, 4, 14]
 
 # calculating length of array
 n = len(arr)
