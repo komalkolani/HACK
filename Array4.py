@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 29 13:33:59 2022
-
-@author: DELL
-"""
-
 # Python program for reversal algorithm of array rotation
 
 # Function to reverse arr[] from index start to end
@@ -29,8 +23,6 @@ def printArray(arr):
 		print (arr[i])
 
 # Driver function to test above functions
-arr = [1, 2, 3, 4, 5, 6, 7]
-leftRotate(arr, 2) # Rotate array by 2
-printArray(arr)
-
-# This code is contributed by Devesh Agrawal
+a = [1, 2, 3, 9, 5, 10, 7]
+leftRotate(a, 2) # Rotate array by 2
+printArray(a)
