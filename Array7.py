@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 29 13:35:42 2022
-
-@author: DELL
-"""
-
 # Check if given array is Monotonic
 def isMonotonic(A):
 	x, y = [], []
@@ -18,7 +12,7 @@ def isMonotonic(A):
 
 
 # Driver program
-A = [6, 5, 4, 4]
+B = [6, 5, 1, 8]
 
 # Print required result
-print(isMonotonic(A))
+print(isMonotonic(B))
