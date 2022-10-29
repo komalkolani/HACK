@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Oct 29 13:33:19 2022
-
-@author: DELL
-"""
-
 # function to rotate array by d elements using temp array
 def rotateArray(arr, n, d):
 	temp = []
@@ -22,8 +17,6 @@ def rotateArray(arr, n, d):
 
 
 # Driver function to test above function
-arr = [1, 2, 3, 4, 5, 6, 7]
+arr = [1, 2, 5, 4, 5, 12, 7]
 print("Array after left rotation is: ", end=' ')
 print(rotateArray(arr, len(arr), 2))
-
-# this code is contributed by Anabhra Tyagi
